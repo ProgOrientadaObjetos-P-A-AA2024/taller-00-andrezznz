@@ -15,9 +15,11 @@ public class Demo {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) { /* Inicializar la Variable CADENA1
+        con el paquete anteriormente importado*/
         
         System.out.printf("%s con %d", Mensaje.obtenerMensaje(), Informacion.obtenerHabitantes());
+        
     }
     
 }
